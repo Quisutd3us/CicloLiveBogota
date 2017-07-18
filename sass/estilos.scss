@@ -1,0 +1,13 @@
+$color1: #3c3c3c;
+
+
+@mixin textosH1($color){
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 12rem;
+    color: $color;
+    text-align: center;
+}
+
+h1{
+    @include textosH1($color1);
+}
